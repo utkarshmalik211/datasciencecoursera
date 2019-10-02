@@ -1,0 +1,6 @@
+source("base.R")
+data <- readData()
+datetime <- strptime(paste(data$Date, data$Time, sep=" "), "%d/%m/%Y %H:%M:%S") 
+png("plot2.png", width=480, height=480)
+plot(datetime, as.numeric(data$Global_active_power), type="l", ylab = "Global Active Power (kilowatts)",xlab="", main = "Global Active Power")
+dev.off()
