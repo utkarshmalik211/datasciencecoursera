@@ -1,12 +1,12 @@
 ---
 title: "Motor Trend MPG Data Analysis"
-author: "Matthew Bender"
-date: "September 19, 2015"
-output: html_document
+author: "Utkarsh Malik"
+date: "October 19, 2019"
+output:
+  pdf_document: default
+  html_document: default
 ---
-*Created with knitr*
-
-#### Executive Summary
+### Summary
 This report analyzed the relationship between transmission type (manual or 
 automatic) and miles per gallon (MPG). The report set out to determine which 
 transmission type produces a higher MPG. The `mtcars` dataset was used for this
